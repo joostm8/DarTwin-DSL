@@ -19,3 +19,7 @@ To use DarTwin in your own project, or to view the examples, they should be impo
 See https://github.com/Systems-Modeling/SysML-v2-Release/tree/master/install/eclipse
 
 With the additional step of also checking `DarTwin` when selecting the project references.
+
+# License
+
+The SysML v2 models in this repository are licensed under the GNU Lesser General Public License (LGPL) v3.0.
