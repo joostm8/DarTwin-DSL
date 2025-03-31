@@ -9,15 +9,15 @@ package OptimalControBase {
 		
 		#twinsystem GantryCrane {
 			
-			#digitaltwin GantryCrane {
+			#digitaltwin Trajectory {
 				port p1;
 				port p2;
 				port p3;
 			}
 			
-			connect OptimalControl.AT.MotorPosition to GantryCrane.p1;
-			connect OptimalControl.AT.SwingAngle to GantryCrane.p2;
-			connect OptimalControl.AT.MotorControllers to GantryCrane.p3;
+			connect OptimalControl.AT.MotorPosition to Trajectory.p1;
+			connect OptimalControl.AT.SwingAngle to Trajectory.p2;
+			connect OptimalControl.AT.MotorControllers to Trajectory.p3;
 		}
 		
 		part AT {
