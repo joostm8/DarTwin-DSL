@@ -9,6 +9,8 @@ library package DarTwin1 {
 		
 		requirement goals[*]:Goal;
 		
+		part arbiter1:Arbiter;
+		
 		allocate goals to DarTwin.twin_system.digital_twin;
 	}
 	
@@ -21,6 +23,11 @@ library package DarTwin1 {
 		attribute explanation:String;
 		end g1:Goal;
 		end g2:Goal;
+	}
+	
+	part def Arbiter {
+		port inputs[2..*];
+		port output[1];
 	}
 	
 }
@@ -51,6 +58,10 @@ library package DarTwinMetadata{
 	}
 	metadata def <vs> ConflictMetadata :> SemanticMetadata {
 		:>> baseType = confl meta SysML::ConnectionUsage;
+	}
+	
+	metadata def <arbiter> ArbiterMetadata :> SemanticMetadata{
+		:>> baseType = DarTwin::arbiter1 meta SysML::PartUsage;
 	}
 	
 }
