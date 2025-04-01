@@ -48,11 +48,11 @@ package OptimalControBase {
 				port p3;
 			}
 			
-			#digitaltwin KineticConstraintArbiter{
-				port p1;
-				port p2;
-				port p3;
-				doc /* Should be arbiter not digital twin? */
+			#arbiter KineticConstraintArbiter{
+				port p1 :> inputs;
+				port p2 :> inputs;
+				port p3 :> output;
+				doc /* Picks strictest constraint between p1 and p2, outputs on p3 */
 			}
 			
 			connect ContainerConstraints.AT.ContainerDatabase to ContainerSpecification.p1;
