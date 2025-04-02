@@ -175,8 +175,8 @@ package OptimalControBase_3_4 {
 	}
 }
 
-package OptimalControBase {
-	doc /* 	5. Flattening, redefine all elements of _aftwer
+package OptimalControBase_5 {
+	doc /* 	5. Flattening, redefine all elements of _afterw
 	 * 		This is the same content as 1-dynamic-positioning-dartwin.sysml
 	 */
 
