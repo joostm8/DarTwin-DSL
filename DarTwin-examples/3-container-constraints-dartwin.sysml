@@ -2,7 +2,7 @@ package OptimalControBase {
 	doc /* Initial Gantry Crane system  */
 
 	private import ScalarValues::*;
-	private import DarTwin1::*;
+	private import DarTwin::*;
 	private import DarTwinMetadata::*;
 	
 	#dartwin ContainerConstraints {

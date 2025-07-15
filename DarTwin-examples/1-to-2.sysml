@@ -2,7 +2,7 @@ package OptimalControBase_0 {
 	doc /* 0. Starting point: Initial Gantry Crane system  */
 
 	private import ScalarValues::*;
-	private import DarTwin1::*;
+	private import DarTwin::*;
 	private import DarTwinMetadata::*;
 	
 	#dartwin DynamicPositioning {
@@ -89,7 +89,7 @@ package OptimalControBase_5 {
 	 */
 
 	private import ScalarValues::*;
-	private import DarTwin1::*;
+	private import DarTwin::*;
 	private import DarTwinMetadata::*;
 	
 	#dartwin ContinuousValidation {

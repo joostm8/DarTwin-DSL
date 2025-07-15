@@ -1,7 +1,7 @@
 package StrawberryCultivation {
     doc /* based on Indoor Strawberry Cultivation System with Digital Twin, inspired by EnergyComfort3 */
     private import ScalarValues::*;
-    private import DarTwin1::*;           
+    private import DarTwin::*;           
     private import DarTwinMetadata::*;
 
     #dartwin StrawberryCultivation {
