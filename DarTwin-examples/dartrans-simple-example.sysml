@@ -36,7 +36,7 @@ package DarTransExampleStep_2{
 		#dartwin exampleSystem :> Replacement.dt_before{
 			#twinsystem TS :> Replacement.dt_before.TS{
 				#digitaltwin DT1 :> Replacement.dt_before.TS.DT1{
-					port p1 :> Replacement.dt_before.TS.DT1.p2;
+					port p1 :> Replacement.dt_before.TS.DT1.p1;
 					port p2 :> Replacement.dt_before.TS.DT1.p2;
 				}
 			}
