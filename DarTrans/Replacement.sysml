@@ -21,7 +21,7 @@ package Replacement {
 				} 
 			}
 			connection c1 connect TS.DT1.p1 to AT.p1;
-			connection c2 connect TS.DT1.p2 to AT.p2;
+			connection c2 connect AT.p2 to TS.DT1.p2;
 			
 			allocation a1 allocate goal1 to TS.DT1;
 		} 
@@ -34,8 +34,8 @@ package Replacement {
 				} 
 			}
 			connection c1 connect TS.DT2.p1 to AT.p1;
-			connection c2 connect TS.DT2.p2 to AT.p2;
-			
+			connection c2 connect AT.p2 to TS.DT2.p2;	
+					
 			allocation a1 allocate goal1 to TS.DT2;
 			
 		}
